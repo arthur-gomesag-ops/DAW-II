@@ -1,0 +1,139 @@
+.rec-titulo {
+  color: #185f29;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.rec-subtitulo {
+  color: #185f29;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.rec-card {
+  background: #fff;
+  border-radius: 13px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.rec-card label {
+  display: block;
+  color: #155d26;
+  font-weight: 600;
+  margin: 12px 0 4px;
+}
+
+.rec-card input {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid #32964b;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background: #fff;
+}
+
+.rec-botoes {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.rec-enviar {
+  flex: 1;
+  background: #155d26;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.rec-enviar:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.rec-cancelar {
+  background: transparent;
+  color: #155d26;
+  border: 1.5px solid #155d26;
+  padding: 12px 18px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.rec-mensagem {
+  margin-top: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.rec-erro {
+  color: #c0392b;
+}
+
+.rec-sucesso {
+  color: #155d26;
+}
+
+.rec-tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rec-tabela th,
+.rec-tabela td {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.rec-tabela th {
+  color: #155d26;
+}
+
+.rec-acoes {
+  display: flex;
+  gap: 8px;
+}
+
+.rec-editar,
+.rec-excluir {
+  border: none;
+  border-radius: 15px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rec-editar {
+  background: #e2f0e6;
+  color: #155d26;
+}
+
+.rec-excluir {
+  background: #fbe4e2;
+  color: #c0392b;
+}
+
+.rec-zerado {
+  display: inline-block;
+  margin-left: 8px;
+  background: #a3241c;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 12px;
+}

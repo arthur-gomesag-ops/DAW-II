@@ -1,0 +1,93 @@
+.mon-titulo {
+  color: #185f29;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+
+.mon-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+  margin-bottom: 10px;
+}
+
+.mon-cabecalho span {
+  color: #185f29;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.mon-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mon-linha {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 68px;
+  padding: 14px 22px;
+  background: #dcd6d6;
+  border: 1.5px solid #999;
+  border-radius: 13px;
+  text-decoration: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.mon-linha:hover {
+  border-color: #155d26;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.mon-linha:focus,
+.mon-linha:active {
+  border-color: #2e8bf0;
+}
+
+.mon-nome {
+  color: #185f29;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mon-contagem {
+  color: #185f29;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.mon-carregando {
+  color: #777;
+  font-size: 16px;
+  padding: 10px 22px;
+}
+
+@media (max-width: 600px) {
+  .mon-titulo {
+    font-size: 21px;
+  }
+
+  .mon-cabecalho {
+    padding: 0 12px;
+  }
+
+  .mon-linha {
+    padding: 12px 16px;
+  }
+
+  .mon-nome {
+    font-size: 16px;
+  }
+
+  .mon-contagem {
+    font-size: 15px;
+  }
+}

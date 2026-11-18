@@ -1,0 +1,103 @@
+.pen-voltar {
+  display: inline-block;
+  color: #185f29;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.pen-voltar:hover {
+  text-decoration: underline;
+}
+
+.pen-titulo {
+  color: #185f29;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+
+.pen-carregando {
+  color: #777;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.pen-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pen-card {
+  background: #dcd6d6;
+  border: 1.5px solid #999;
+  border-radius: 13px;
+  padding: 16px 20px;
+  position: relative;
+}
+
+.pen-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pen-badge {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.pen-badge-doacao {
+  background: #185f29;
+}
+
+.pen-badge-solicitacao {
+  background: #028017;
+}
+
+.pen-data {
+  font-size: 13px;
+  color: #666;
+}
+
+.pen-item {
+  font-size: 16px;
+  font-weight: 700;
+  color: #185f29;
+  margin-bottom: 4px;
+}
+
+.pen-quantidade {
+  font-size: 14px;
+  color: #555;
+}
+
+.pen-status {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+
+.pen-status-ativa {
+  background: #fff3cd;
+  color: #8a6d00;
+}
+
+.pen-status-vencida {
+  background: #f8d7da;
+  color: #842029;
+}
+
+.pen-status-cumprida {
+  background: #d1e7dd;
+  color: #0f5132;
+}
